@@ -7,6 +7,7 @@ using gasstation.code.core.ui.intereactable;
 using gasstation.code.core.objects;
 using gasstation.code.core.logging;
 using gasstation.code.core.constants;
+using gasstation.code.core.data;
 using gasstation.code.gameplay.inventory;
 
 namespace gasstation.code.core.ui.intereactable
@@ -15,6 +16,14 @@ namespace gasstation.code.core.ui.intereactable
     {
         [SerializeField]
         Canvas registerCanvas;
+        [SerializeField]
+        Text cashText;
+        [SerializeField]
+        Text cashDeficit;
+        [SerializeField]
+        Text cashStolen;
+        [SerializeField]
+        Text bullets;
 
         public static CashRegister GetRegister()
         {
@@ -32,8 +41,17 @@ namespace gasstation.code.core.ui.intereactable
             }
         }
 
+        private void DatabindRegisterValues()
+        {
+            this.cashText.text = Persistence.FetchRegisterState().totalCash.ToString();
+            this.cashDeficit.text = Persistence.FetchRegisterState().deficitCash.ToString();
+            this.cashStolen.text = Persistence.FetchRegisterState().cashStolen.ToString();
+            this.bullets.text = Persistence.FetchRegisterState().bullets.ToString();
+        }
+
         public void EnableRegisterUI()
         {
+            this.DatabindRegisterValues();
             this.registerCanvas.gameObject.SetActive(true);
         }
 

@@ -6,6 +6,7 @@ using gasstation.code.core.logging;
 using gasstation.code.core.player;
 using gasstation.code.core.level;
 using gasstation.code.gameplay.levels;
+using gasstation.code.core.ui.intereactable;
 using JsonKnownTypes;
 
 namespace gasstation.code.core.data
@@ -22,16 +23,25 @@ namespace gasstation.code.core.data
         [JsonProperty]
         public LevelStates levelStates;
 
+        [JsonProperty]
+        public CashRegisterState registerState;
+
         public SaveState(bool firstTime)
         {
             this.gameState = new GameState();
             this.playerState = new PlayerState();
             this.levelStates = new LevelStates();
+            this.registerState = new CashRegisterState();
         }
 
         public void UpdateGameState()
         {
             this.gameState = GameState.Instance;
+        }
+
+        public ref CashRegisterState GetRegisterState()
+        {
+            return ref this.registerState;
         }
 
         public void UpdatePlayerState()
@@ -155,6 +165,11 @@ namespace gasstation.code.core.data
             }
             string output = Newtonsoft.Json.JsonConvert.SerializeObject(Persistence.dataObject, Newtonsoft.Json.Formatting.Indented);
             File.WriteAllText(Persistence.persistencePath, output);
+        }
+
+        public static ref CashRegisterState FetchRegisterState()
+        {
+            return ref Persistence.dataObject.currentSaveState.GetRegisterState();
         }
 
         public static void ReadData()

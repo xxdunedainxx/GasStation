@@ -15,11 +15,11 @@ D:/git/gastation_git/GasStation/game/GasStation
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54051
+61688
 Successfully changed project path to: D:/git/gastation_git/GasStation/game/GasStation
 D:/git/gastation_git/GasStation/game/GasStation
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 39.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path D:/unity/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -35,531 +35,257 @@ Initialize mono
 Mono path[0] = 'D:/unity/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/unity/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/2020.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/unity/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001415 seconds.
+Registered in 0.001448 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 39.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.310 seconds
+- Completed reload, in  1.359 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004583 seconds.
+Registered in 0.006785 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Restoring NuGet Packages
 Mono: successfully reloaded assembly
-- Completed reload, in  1.276 seconds
+- Completed reload, in  1.330 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2155 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 94.9 MB.
 System memory in use after: 94.9 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2589.
-Total: 2.308800 ms (FindLiveObjects: 0.219000 ms CreateObjectMapping: 0.098500 ms MarkObjects: 1.898300 ms  DeleteObjects: 0.091600 ms)
+Total: 2.521900 ms (FindLiveObjects: 0.365300 ms CreateObjectMapping: 0.150800 ms MarkObjects: 1.904500 ms  DeleteObjects: 0.099800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Resources/images/dialogue/DialogueBackgrounGreasyPaper.psd
-  artifactKey: Guid(0d01fc1b052166e43816c90fc93ea2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueBackgrounGreasyPaper.psd using Guid(0d01fc1b052166e43816c90fc93ea2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343edc1b7fd37ccec048612b620ff0da') in 0.098997 seconds
-  Import took 0.101935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.192659 seconds.
-  path: Assets/Resources/images/dialogue/DialogueBackgrounGreasyPaper.psd
-  artifactKey: Guid(0d01fc1b052166e43816c90fc93ea2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueBackgrounGreasyPaper.psd using Guid(0d01fc1b052166e43816c90fc93ea2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3cf455d16b88233d31a6bd1404879a') in 0.006863 seconds
-  Import took 0.010048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002415 seconds.
-  path: Assets/Resources/images/dialogue/DialogueBackgrounGreasyPaper.psd
-  artifactKey: Guid(0d01fc1b052166e43816c90fc93ea2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueBackgrounGreasyPaper.psd using Guid(0d01fc1b052166e43816c90fc93ea2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3cf455d16b88233d31a6bd1404879a') in 0.006007 seconds
-  Import took 0.009203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.580446 seconds.
-  path: Assets/Resources/images/dialogue/DialogueBackgrounGreasyPaper.psd
-  artifactKey: Guid(0d01fc1b052166e43816c90fc93ea2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueBackgrounGreasyPaper.psd using Guid(0d01fc1b052166e43816c90fc93ea2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06aec746a4fd5982520818b5e37e61ff') in 0.010405 seconds
-  Import took 0.013526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.438312 seconds.
-  path: Assets/Resources/images/dialogue/DialogueBackgrounGreasyPaper.psd
-  artifactKey: Guid(0d01fc1b052166e43816c90fc93ea2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueBackgrounGreasyPaper.psd using Guid(0d01fc1b052166e43816c90fc93ea2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b2c83fe5ee3f8b13e566338a401611') in 0.006031 seconds
-  Import took 0.009135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001059 seconds.
-  path: Assets/Resources/images/dialogue/DialogueBackgrounGreasyPaper.psd
-  artifactKey: Guid(0d01fc1b052166e43816c90fc93ea2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueBackgrounGreasyPaper.psd using Guid(0d01fc1b052166e43816c90fc93ea2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b2c83fe5ee3f8b13e566338a401611') in 0.006051 seconds
-  Import took 0.008882 seconds .
+  path: Assets/code/core/ui/intereactable/register/CashRegisterState.cs
+  artifactKey: Guid(0081555ac4f39d14db428d30da4139a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/code/core/ui/intereactable/register/CashRegisterState.cs using Guid(0081555ac4f39d14db428d30da4139a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e90257c950e0f2d47661a5882740fc') in 0.044438 seconds
+  Import took 0.048156 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004689 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.909 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.4 MB.
-System memory in use after: 97.4 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2600.
-Total: 2.057700 ms (FindLiveObjects: 0.192800 ms CreateObjectMapping: 0.086000 ms MarkObjects: 1.714700 ms  DeleteObjects: 0.063400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 234.353661 seconds.
-  path: Assets/Resources/images/dialogue/DialogueBackgrounGreasyPaper 1.psd
-  artifactKey: Guid(d6b5d7b8d2a5e1049851fb8df2573282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueBackgrounGreasyPaper 1.psd using Guid(d6b5d7b8d2a5e1049851fb8df2573282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8e48ee96c13828bc13bd7c24ffe6b2') in 0.045957 seconds
-  Import took 0.048915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Resources/images/dialogue/DialogueBackgrounGreasyPaper.psd
-  artifactKey: Guid(0d01fc1b052166e43816c90fc93ea2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueBackgrounGreasyPaper.psd using Guid(0d01fc1b052166e43816c90fc93ea2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7d4d4ecb469463322abaf2f453ac23') in 0.008130 seconds
-  Import took 0.010779 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004524 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.931 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.4 MB.
-System memory in use after: 97.5 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2604.
-Total: 2.173600 ms (FindLiveObjects: 0.185300 ms CreateObjectMapping: 0.085000 ms MarkObjects: 1.836900 ms  DeleteObjects: 0.065500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 222.064370 seconds.
-  path: Assets/Resources/images/dialogue/DialogueCloseXButton.psd
-  artifactKey: Guid(0072eb9853a4f8843adbfefa5da9002c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueCloseXButton.psd using Guid(0072eb9853a4f8843adbfefa5da9002c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99dc7e81adb772955db6e4d51002f9ac') in 0.051235 seconds
-  Import took 0.054442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.338688 seconds.
-  path: Assets/Resources/images/dialogue/DialogueCloseXButton.psd
-  artifactKey: Guid(0072eb9853a4f8843adbfefa5da9002c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueCloseXButton.psd using Guid(0072eb9853a4f8843adbfefa5da9002c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5431659081216f42d9609634046067d4') in 0.006758 seconds
-  Import took 0.010028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001340 seconds.
-  path: Assets/Resources/images/dialogue/DialogueCloseXButton.psd
-  artifactKey: Guid(0072eb9853a4f8843adbfefa5da9002c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueCloseXButton.psd using Guid(0072eb9853a4f8843adbfefa5da9002c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5431659081216f42d9609634046067d4') in 0.006747 seconds
-  Import took 0.009693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.966790 seconds.
-  path: Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd
-  artifactKey: Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd using Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62734676165665b32166312443920f47') in 0.009603 seconds
-  Import took 0.013391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.815541 seconds.
-  path: Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd
-  artifactKey: Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd using Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5777acad09bd6e8a24829cf765f11a7c') in 0.007372 seconds
-  Import took 0.010778 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001002 seconds.
-  path: Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd
-  artifactKey: Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd using Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5777acad09bd6e8a24829cf765f11a7c') in 0.005541 seconds
-  Import took 0.008519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 214.842621 seconds.
-  path: Assets/Resources/images/dialogue/DialogueNextDialogueArrow.psd
-  artifactKey: Guid(dbd0d96d40d0cc844a7be6a215e3580e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueNextDialogueArrow.psd using Guid(dbd0d96d40d0cc844a7be6a215e3580e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3c9e1429f40e97d9db8bce0075ad23') in 0.011145 seconds
-  Import took 0.014383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.121368 seconds.
-  path: Assets/Resources/images/dialogue/DialogueNextDialogueArrow.psd
-  artifactKey: Guid(dbd0d96d40d0cc844a7be6a215e3580e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueNextDialogueArrow.psd using Guid(dbd0d96d40d0cc844a7be6a215e3580e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bced55e46254341abd1d38ce4ebb498b') in 0.009753 seconds
-  Import took 0.013008 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004817 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.935 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.5 MB.
-System memory in use after: 97.5 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2612.
-Total: 2.019100 ms (FindLiveObjects: 0.198100 ms CreateObjectMapping: 0.078300 ms MarkObjects: 1.677400 ms  DeleteObjects: 0.064300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004748 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.923 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.5 MB.
-System memory in use after: 97.5 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2615.
-Total: 2.111200 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.085500 ms MarkObjects: 1.737100 ms  DeleteObjects: 0.070000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004628 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.928 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.5 MB.
-System memory in use after: 97.5 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2618.
-Total: 2.057200 ms (FindLiveObjects: 0.184100 ms CreateObjectMapping: 0.081000 ms MarkObjects: 1.726400 ms  DeleteObjects: 0.064900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 158.049446 seconds.
-  path: Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd
-  artifactKey: Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd using Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58846237072f905d854381054a36cfdd') in 0.040782 seconds
-  Import took 0.044192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000864 seconds.
-  path: Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd
-  artifactKey: Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd using Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58846237072f905d854381054a36cfdd') in 0.006016 seconds
-  Import took 0.009081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.308218 seconds.
-  path: Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd
-  artifactKey: Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd using Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1772dc604326f42e6d39c808349aa585') in 0.005988 seconds
-  Import took 0.009282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002297 seconds.
-  path: Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd
-  artifactKey: Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd using Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1772dc604326f42e6d39c808349aa585') in 0.005471 seconds
-  Import took 0.008709 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.562072 seconds.
-  path: Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd
-  artifactKey: Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd using Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c505fdfa33f6388cecd8b47245380a0') in 0.006405 seconds
-  Import took 0.009653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001424 seconds.
-  path: Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd
-  artifactKey: Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd using Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c505fdfa33f6388cecd8b47245380a0') in 0.005306 seconds
-  Import took 0.008361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.266640 seconds.
-  path: Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd
-  artifactKey: Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd using Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79e561808703564c8468a6a0bc8fe63') in 0.006330 seconds
-  Import took 0.009539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002484 seconds.
-  path: Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd
-  artifactKey: Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/dialogue/DialogueCloseXButton 1.psd using Guid(771fd8dd6725f494392eb922e6da5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79e561808703564c8468a6a0bc8fe63') in 0.005423 seconds
-  Import took 0.008954 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006432 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.164 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.5 MB.
-System memory in use after: 97.6 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2622.
-Total: 2.372300 ms (FindLiveObjects: 0.206300 ms CreateObjectMapping: 0.085600 ms MarkObjects: 2.005700 ms  DeleteObjects: 0.073400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004511 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.926 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.5 MB.
-System memory in use after: 97.6 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2625.
-Total: 2.470300 ms (FindLiveObjects: 0.187500 ms CreateObjectMapping: 0.093200 ms MarkObjects: 2.106500 ms  DeleteObjects: 0.081900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004717 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.906 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.5 MB.
-System memory in use after: 97.6 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2628.
-Total: 2.371300 ms (FindLiveObjects: 0.203000 ms CreateObjectMapping: 0.088200 ms MarkObjects: 2.006700 ms  DeleteObjects: 0.072500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004593 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.922 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.5 MB.
-System memory in use after: 97.6 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2631.
-Total: 2.141700 ms (FindLiveObjects: 0.247100 ms CreateObjectMapping: 0.136700 ms MarkObjects: 1.689600 ms  DeleteObjects: 0.067300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004577 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.939 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.5 MB.
-System memory in use after: 97.6 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2634.
-Total: 2.378500 ms (FindLiveObjects: 0.279800 ms CreateObjectMapping: 0.125000 ms MarkObjects: 1.902000 ms  DeleteObjects: 0.070700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006110 seconds.
+Registered in 0.004519 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.917 seconds
+- Completed reload, in  1.030 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.5 MB.
-System memory in use after: 97.6 MB.
+System memory in use before: 94.4 MB.
+System memory in use after: 94.5 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2637.
-Total: 2.428100 ms (FindLiveObjects: 0.195900 ms CreateObjectMapping: 0.089800 ms MarkObjects: 2.064500 ms  DeleteObjects: 0.077000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1157.097352 seconds.
-  path: Assets/Resources/images/levels/InsideGasStation/InsideGasStationLevelNoObjects 1.psd
-  artifactKey: Guid(e3158e7b2a6b60d419bc3c5fbc036a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/levels/InsideGasStation/InsideGasStationLevelNoObjects 1.psd using Guid(e3158e7b2a6b60d419bc3c5fbc036a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f64639c9ffc5d86f7061caf0d70b49f') in 0.052775 seconds
-  Import took 0.056582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.456232 seconds.
-  path: Assets/Resources/images/levels/InsideGasStation/InsideGasStationLevelBackCabinet.psd
-  artifactKey: Guid(394a71f7ddf233b4f83eef48eb7ecd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/levels/InsideGasStation/InsideGasStationLevelBackCabinet.psd using Guid(394a71f7ddf233b4f83eef48eb7ecd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859fafad8e1d0676ddc361787e6dd876') in 0.012889 seconds
-  Import took 0.016042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001462 seconds.
-  path: Assets/Resources/images/levels/InsideGasStation/InsideGasStationLevelBackCabinet.psd
-  artifactKey: Guid(394a71f7ddf233b4f83eef48eb7ecd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/levels/InsideGasStation/InsideGasStationLevelBackCabinet.psd using Guid(394a71f7ddf233b4f83eef48eb7ecd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859fafad8e1d0676ddc361787e6dd876') in 0.006261 seconds
-  Import took 0.009267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.944778 seconds.
-  path: Assets/Resources/images/levels/InsideGasStation/InsideGasStationLevelNoObjects 1.psd
-  artifactKey: Guid(e3158e7b2a6b60d419bc3c5fbc036a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/levels/InsideGasStation/InsideGasStationLevelNoObjects 1.psd using Guid(e3158e7b2a6b60d419bc3c5fbc036a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0dd15f008583649466dbc6874d196d5') in 0.011310 seconds
-  Import took 0.014838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.571947 seconds.
-  path: Assets/Resources/images/levels/InsideGasStation/InsideGasStationLevelBackCabinet.psd
-  artifactKey: Guid(394a71f7ddf233b4f83eef48eb7ecd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/levels/InsideGasStation/InsideGasStationLevelBackCabinet.psd using Guid(394a71f7ddf233b4f83eef48eb7ecd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42add8ae1f521b42402dabce1321a6f') in 0.006397 seconds
-  Import took 0.009883 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002735 seconds.
-  path: Assets/Resources/images/levels/InsideGasStation/InsideGasStationLevelBackCabinet.psd
-  artifactKey: Guid(394a71f7ddf233b4f83eef48eb7ecd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/images/levels/InsideGasStation/InsideGasStationLevelBackCabinet.psd using Guid(394a71f7ddf233b4f83eef48eb7ecd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42add8ae1f521b42402dabce1321a6f') in 0.005788 seconds
-  Import took 0.008851 seconds .
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2592.
+Total: 2.042500 ms (FindLiveObjects: 0.181000 ms CreateObjectMapping: 0.072200 ms MarkObjects: 1.719800 ms  DeleteObjects: 0.068100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004568 seconds.
+Registered in 0.004552 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.5 MB.
+System memory in use after: 94.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2595.
+Total: 2.133900 ms (FindLiveObjects: 0.195500 ms CreateObjectMapping: 0.070600 ms MarkObjects: 1.790600 ms  DeleteObjects: 0.076300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.5 MB.
+System memory in use after: 94.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2598.
+Total: 2.276700 ms (FindLiveObjects: 0.194700 ms CreateObjectMapping: 0.074700 ms MarkObjects: 1.944100 ms  DeleteObjects: 0.062300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004885 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.941 seconds
+- Completed reload, in  1.043 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.6 MB.
-System memory in use after: 97.6 MB.
+System memory in use before: 94.5 MB.
+System memory in use after: 94.6 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2645.
-Total: 2.245600 ms (FindLiveObjects: 0.195000 ms CreateObjectMapping: 0.080900 ms MarkObjects: 1.895600 ms  DeleteObjects: 0.072900 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2601.
+Total: 2.500600 ms (FindLiveObjects: 0.344900 ms CreateObjectMapping: 0.106100 ms MarkObjects: 1.958900 ms  DeleteObjects: 0.064600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005320 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.5 MB.
+System memory in use after: 94.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2604.
+Total: 2.317800 ms (FindLiveObjects: 0.218700 ms CreateObjectMapping: 0.124400 ms MarkObjects: 1.896300 ms  DeleteObjects: 0.077400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006278 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.5 MB.
+System memory in use after: 94.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2607.
+Total: 2.135400 ms (FindLiveObjects: 0.185500 ms CreateObjectMapping: 0.075000 ms MarkObjects: 1.787800 ms  DeleteObjects: 0.086200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005067 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.6 MB.
+System memory in use after: 94.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2610.
+Total: 2.242900 ms (FindLiveObjects: 0.171400 ms CreateObjectMapping: 0.067000 ms MarkObjects: 1.920500 ms  DeleteObjects: 0.082700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004540 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.938 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.6 MB.
+System memory in use after: 94.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2613.
+Total: 2.044200 ms (FindLiveObjects: 0.178600 ms CreateObjectMapping: 0.066400 ms MarkObjects: 1.735400 ms  DeleteObjects: 0.062900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005066 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.6 MB.
+System memory in use after: 94.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2616.
+Total: 2.373400 ms (FindLiveObjects: 0.213100 ms CreateObjectMapping: 0.140700 ms MarkObjects: 1.948000 ms  DeleteObjects: 0.070100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004607 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.333 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2147 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.6 MB.
+System memory in use after: 94.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2620.
+Total: 3.166300 ms (FindLiveObjects: 0.399400 ms CreateObjectMapping: 0.169300 ms MarkObjects: 2.460000 ms  DeleteObjects: 0.136200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

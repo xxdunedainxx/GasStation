@@ -6,7 +6,7 @@
       "LAST_LEVEL": "InsideGasStation",
       "CURRENT_LEVEL": "InsideGasStation",
       "TOTAL_PLAY_TIME": 0.0,
-      "LAST_SAVE": "2022-04-28T16:34:34.9661422-07:00",
+      "LAST_SAVE": "2022-06-12T15:30:22.9141789-07:00",
       "CAMPAIGN_SELECTED": "UNKNOWN",
       "LEVEL_STATE": {},
       "GAME_MODE_SELECTED": "NORMAL"
@@ -48,6 +48,12 @@
           "levelName": "BeginningOfGame"
         }
       }
+    },
+    "registerState": {
+      "totalCash": 100.0,
+      "deficitCash": 0.0,
+      "cashStolen": 0.0,
+      "bullets": 0
     }
   },
   "saveStates": [
@@ -57,7 +63,7 @@
         "LAST_LEVEL": "InsideGasStation",
         "CURRENT_LEVEL": "InsideGasStation",
         "TOTAL_PLAY_TIME": 0.0,
-        "LAST_SAVE": "2022-04-28T16:34:34.9661422-07:00",
+        "LAST_SAVE": "2022-06-12T15:30:22.9141789-07:00",
         "CAMPAIGN_SELECTED": "UNKNOWN",
         "LEVEL_STATE": {},
         "GAME_MODE_SELECTED": "NORMAL"
@@ -99,6 +105,12 @@
             "levelName": "BeginningOfGame"
           }
         }
+      },
+      "registerState": {
+        "totalCash": 100.0,
+        "deficitCash": 0.0,
+        "cashStolen": 0.0,
+        "bullets": 0
       }
     },
     null,
