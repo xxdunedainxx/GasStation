@@ -3,4 +3,5 @@
 [ext_resource type="Script" path="res://Core/Camera/MainCamera/MainCamera.gd" id="1_eov4s"]
 
 [node name="MainCamera" type="Camera2D"]
+zoom = Vector2(3.75, 3.75)
 script = ExtResource("1_eov4s")
