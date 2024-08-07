@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dvunihux3n3ag"]
+
+[ext_resource type="Script" path="res://Core/Gameplay/Core/Core.gd" id="1_hk3p7"]
+
+[node name="Core" type="Node"]
+script = ExtResource("1_hk3p7")

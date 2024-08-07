@@ -1,0 +1,30 @@
+[gd_scene load_steps=7 format=3 uid="uid://bk5jjbayvuvl8"]
+
+[ext_resource type="Script" path="res://Levels/Home/HomeScreen.gd" id="1_2i1gm"]
+[ext_resource type="PackedScene" uid="uid://d3uiu2fwjor2r" path="res://Core/Camera/MainCamera/MainCamera.tscn" id="2_iixsh"]
+[ext_resource type="Texture2D" uid="uid://to5ajxcag2vu" path="res://Levels/Home/OutsideGasStationLoginScreen.png" id="3_xd2ib"]
+[ext_resource type="Theme" uid="uid://xq30lnd67j17" path="res://ButtonThheme.tres" id="4_xmj51"]
+[ext_resource type="Script" path="res://Levels/Home/LoginButton.gd" id="5_ku7va"]
+[ext_resource type="PackedScene" uid="uid://b0i76rfe1yc2h" path="res://Core/Gameplay/State/StateMachine.tscn" id="6_xuqer"]
+
+[node name="HomeScreen" type="Node2D"]
+script = ExtResource("1_2i1gm")
+
+[node name="MainCamera" parent="." instance=ExtResource("2_iixsh")]
+zoom = Vector2(2.75, 2.75)
+
+[node name="OutsideGasStationLoginScreen" type="Sprite2D" parent="."]
+position = Vector2(3, -2)
+texture = ExtResource("3_xd2ib")
+
+[node name="LoginButton" type="Button" parent="."]
+offset_left = -29.0
+offset_top = 21.0
+offset_right = 48.0
+offset_bottom = 63.0
+theme = ExtResource("4_xmj51")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Login"
+script = ExtResource("5_ku7va")
+
+[node name="StateMachine" parent="." instance=ExtResource("6_xuqer")]

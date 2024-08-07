@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://ce0hg3tc6mald"]
+
+[ext_resource type="Script" path="res://Levels/GasStationInside/GasStationInside.gd" id="1_ajrda"]
+
+[node name="GasStationInside" type="Node2D"]
+script = ExtResource("1_ajrda")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 297.0
+offset_top = 168.0
+offset_right = 890.0
+offset_bottom = 493.0
+text = "hey inside the gas station"

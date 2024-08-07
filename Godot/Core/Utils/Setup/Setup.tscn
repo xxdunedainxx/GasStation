@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cs3qgckly5qk8"]
+
+[ext_resource type="Script" path="res://Core/Utils/Setup/Setup.gd" id="1_rr887"]
+
+[node name="Setup" type="Node"]
+script = ExtResource("1_rr887")
