@@ -1,6 +1,8 @@
 extends Node
 
 
+var gameReady: bool = false
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
@@ -10,5 +12,11 @@ func _ready():
 func _process(delta):
 	pass
 
-func core_loader():
-	print("Start main")
+func coreLoader():
+	Logging.setLogLevel(Logging.INFO_LOG)
+	Logging.infoLog("Start main", "Core.gd")
+	__gameReady()
+
+func __gameReady():
+	Logging.infoLog("Game is ready!", "Core.gd") 
+	gameReady = true

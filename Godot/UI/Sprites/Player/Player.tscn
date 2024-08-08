@@ -1,3 +1,21 @@
-[gd_scene format=3 uid="uid://0vn3u13arn7b"]
+[gd_scene load_steps=4 format=3 uid="uid://ckrqu7u3eqgc1"]
 
-[node name="Player" type="Node2D"]
+[ext_resource type="Texture2D" uid="uid://c5f7vrdaha1s3" path="res://UI/Sprites/Player/RodSprite.png" id="1_5gafh"]
+[ext_resource type="Script" path="res://UI/Sprites/Player/Player.gd" id="1_a15pw"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rbt28"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_5gafh")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_a15pw")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_rbt28")
