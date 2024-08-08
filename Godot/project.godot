@@ -17,9 +17,14 @@ config/icon="res://icon.svg"
 
 [autoload]
 
+Constants="*res://Core/Utils/const/Constants.gd"
 Logging="*res://Core/Utils/logging/Logging.gd"
 Core="*res://Core/Gameplay/Core/Core.gd"
 StateMachine="*res://Core/Gameplay/State/StateMachine.gd"
+Dialogue="*res://UI/dialogue/Dialogue.gd"
+Sleep="*res://Core/Utils/Sleep.gd"
+SavedState="*res://Core/Gameplay/State/Persistence/SavedState.gd"
+GameState="*res://Core/Gameplay/State/Persistence/GameState.gd"
 
 [dotnet]
 

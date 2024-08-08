@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://b0i76rfe1yc2h"]
+[gd_scene load_steps=2 format=3 uid="uid://dt0mn0mjgd12p"]
 
 [ext_resource type="Script" path="res://Core/Gameplay/State/StateMachine.gd" id="1_kokcc"]
 

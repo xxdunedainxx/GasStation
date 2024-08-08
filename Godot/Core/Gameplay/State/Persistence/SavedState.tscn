@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxa7alj6h3vd0"]
+
+[ext_resource type="Script" path="res://Core/Gameplay/State/Persistence/SavedState.gd" id="1_on0dd"]
+
+[node name="SavedState" type="Node"]
+script = ExtResource("1_on0dd")

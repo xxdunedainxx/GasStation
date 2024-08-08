@@ -15,8 +15,17 @@ func _process(delta):
 func coreLoader():
 	Logging.setLogLevel(Logging.INFO_LOG)
 	Logging.infoLog("Start main", "Core.gd")
+	StateMachine.init()
 	__gameReady()
 
+func __waitForDependencies():
+	while Dialogue.isDialogueReady() == false:
+		Logging.infoLog("Waiting for dependencies..", "Core.gd")
+
 func __gameReady():
+	__waitForDependencies()
 	Logging.infoLog("Game is ready!", "Core.gd") 
 	gameReady = true
+
+
+	

@@ -3,10 +3,16 @@
 extends Node
 
 # Stashes all potential levels and scenes for transitions 
-var LEVELS = {
-	# Inside of the gas station 
-	"GasStationInside": "res://Levels/GasStationInside/GasStationInside.tscn"
-}
+var LEVELS 
+
+func init():
+	LEVELS =  {
+		# Inside of the gas station 
+		"GasStationInside": Constants.GAS_STATION_INSIDE_SCENE
+	}
+	
+	__loadState()
+
 
 # TODO -- actually have state determination based on login 
 # Requires the scene tree as an argument
@@ -20,7 +26,7 @@ func loadLevel():
 
 # Determines state on startup 
 func __loadState():
-	pass
+	GameState.init()
 
 # Updates state every frame
 func __updateState():

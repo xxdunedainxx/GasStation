@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://bueecsksiggse"]
+
+[ext_resource type="Texture2D" uid="uid://pl5jffbrvrnr" path="res://UI/dialogue/DialogueBackgrounGreasyPaper.png" id="1_0iwn5"]
+[ext_resource type="Script" path="res://UI/dialogue/DialogueCanvas.gd" id="1_qu4ru"]
+[ext_resource type="PackedScene" uid="uid://d2cfkk7bu2wer" path="res://UI/dialogue/text/dialogue_text.tscn" id="3_0lnbh"]
+[ext_resource type="Script" path="res://UI/dialogue/DialogueButton.gd" id="4_hsrfa"]
+
+[node name="DialogueCanvas" type="CanvasLayer"]
+script = ExtResource("1_qu4ru")
+
+[node name="DialogueBackgrounGreasyPaper" type="Sprite2D" parent="."]
+position = Vector2(579, 547)
+scale = Vector2(3.695, 2.86)
+texture = ExtResource("1_0iwn5")
+
+[node name="DialogueText" parent="." instance=ExtResource("3_0lnbh")]
+
+[node name="DialogueButton" type="Button" parent="."]
+offset_left = 723.0
+offset_top = 478.0
+offset_right = 754.0
+offset_bottom = 509.0
+text = "X"
+script = ExtResource("4_hsrfa")

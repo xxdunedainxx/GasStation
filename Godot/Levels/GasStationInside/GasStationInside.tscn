@@ -1,12 +1,16 @@
-[gd_scene load_steps=5 format=3 uid="uid://ce0hg3tc6mald"]
+[gd_scene load_steps=6 format=3 uid="uid://ce0hg3tc6mald"]
 
 [ext_resource type="Script" path="res://Levels/GasStationInside/GasStationInside.gd" id="1_ajrda"]
 [ext_resource type="PackedScene" uid="uid://d3uiu2fwjor2r" path="res://Core/Camera/MainCamera/MainCamera.tscn" id="2_ehscj"]
+[ext_resource type="PackedScene" uid="uid://bionc38s4m8im" path="res://UI/dialogue/Dialogue.tscn" id="2_iedbs"]
 [ext_resource type="Texture2D" uid="uid://d1a1hmjpdwjx8" path="res://Levels/GasStationInside/InsideGasStationLevelNoObjects.png" id="3_j6r7p"]
 [ext_resource type="PackedScene" uid="uid://ckrqu7u3eqgc1" path="res://UI/Sprites/Player/Player.tscn" id="4_v8wl4"]
 
 [node name="GasStationInside" type="Node2D"]
 script = ExtResource("1_ajrda")
+
+[node name="Dialogue" parent="." instance=ExtResource("2_iedbs")]
+position = Vector2(581, 360)
 
 [node name="MainCamera" parent="." instance=ExtResource("2_ehscj")]
 position = Vector2(577, 323)

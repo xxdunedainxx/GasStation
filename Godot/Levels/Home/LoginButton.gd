@@ -1,6 +1,5 @@
 extends Button
 
-@onready var stateMachine = load("res://Core/Gameplay/State/StateMachine.gd").new()
 
 func _ready():
 	# var button = Button.new()
@@ -10,8 +9,7 @@ func _ready():
 
 func _login():
 	print("Logging in!")
-	# get_tree().change_scene_to_file("res://Levels/GasStationInside/GasStationInside.tscn")
-	stateMachine.loginToLevel(get_tree())
+	StateMachine.loginToLevel(get_tree())
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
