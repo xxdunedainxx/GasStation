@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://cw77kxpnd3aed"]
+
+[ext_resource type="Script" path="res://UI/userHub/UserHub.gd" id="1_sndhw"]
+
+[node name="UserHub" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 3.0
+offset_bottom = 3.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_sndhw")
+
+[node name="UserHubCanvas" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="UserHubBackground" type="ColorRect" parent="UserHubCanvas"]
+offset_left = 265.0
+offset_top = 175.0
+offset_right = 733.0
+offset_bottom = 445.0
+
+[node name="SaveButton" type="Button" parent="UserHubCanvas"]
+offset_left = 437.0
+offset_top = 340.0
+offset_right = 547.0
+offset_bottom = 415.0
+text = "Save"
