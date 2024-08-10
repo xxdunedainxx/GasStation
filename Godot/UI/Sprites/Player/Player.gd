@@ -9,8 +9,8 @@ var freezePlayer = false
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 # var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
-func handleFreezePlayerEvent(freezePlayer: bool):
-	freezePlayer = freezePlayer
+func handleFreezePlayerEvent(freezePlayerState: bool):
+	freezePlayer = freezePlayerState
 
 func get_user_input_movement():
 	var input_direction = Input.get_vector("left", "right", "up", "down")

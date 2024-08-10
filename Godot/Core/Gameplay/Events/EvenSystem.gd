@@ -36,6 +36,7 @@ var SUB_EVENT_SYSTEM_MAPPING = {
 }
 
 func freezePlayerEvent(freezePlayer: bool):
+	Logging.infoLog("Freeze player event!", "EventSystem.gd")
 	emit_signal(Constants.FREEZE_PLAYER_EVENT, freezePlayer) 
 
 func emitEventHandler(data: Dictionary):
