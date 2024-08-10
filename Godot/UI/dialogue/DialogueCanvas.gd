@@ -5,7 +5,7 @@ extends CanvasLayer
 
 # Default write speed 
 var WRITE_SPEED: float = 0.0000000000001
-var ANIMATE_WRITE_SPEED: float = 0.0000000000001
+
 # Current text we are writing to screen 
 var CURRENT_TEXT: Array = []
 # Index in the array of strings we are current writing out 
