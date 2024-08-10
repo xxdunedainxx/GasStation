@@ -34,7 +34,8 @@ func init():
 	GAME_STATE = {
 		"level" : Constants.GAS_STATION_INSIDE_SCENE,
 		"chapter" : CHAPTERS["Chapter1"],
-		"dialogueTree" : DialogueTree.new().init(CHAPTERS["Chapter1"]["DialogueTree"])
+		"dialogueTree" : DialogueTree.new().init(CHAPTERS["Chapter1"]["DialogueTree"]),
+		"player" : PlayerAttributes.toJson()
 	}	
 
 func fetchCurrentDialogue():

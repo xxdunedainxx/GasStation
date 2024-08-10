@@ -26,6 +26,8 @@ Sleep="*res://Core/Utils/Sleep.gd"
 SavedState="*res://Core/Gameplay/State/Persistence/SavedState.gd"
 GameState="*res://Core/Gameplay/State/Persistence/GameState.gd"
 Controller="*res://Core/Gameplay/controls/Controller.gd"
+PlayerAttributes="*res://UI/Sprites/Player/playerScripts/PlayerAttributes.gd"
+EvenSystem="*res://Core/Gameplay/Events/EvenSystem.gd"
 
 [dotnet]
 
