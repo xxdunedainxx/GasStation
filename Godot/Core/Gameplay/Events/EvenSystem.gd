@@ -43,7 +43,7 @@ func emitEventHandler(data: Dictionary):
 	Logging.infoLog("Emit handling.. %s" % data["type"], "EventSystem.gd")
 	
 	# Emit signal to subscribers 
-	emit_signal("emitEvent", data) 
+	emit_signal(Constants.GENERIC_EVENT_SYSTEM, data) 
 
 	# There could be other possible sub signals 
 	__subSignalEvents(data)

@@ -1,12 +1,13 @@
-extends Node2D
+extends CharacterBody2D
 
-
+@onready var npc = $Npc
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	Core.coreLoader()
-	Dialogue.updateDialogueText(GameState.fetchCurrentDialogue())
+	npc.attachNpcReference(self, {
+		Constants.NPC_SPEED : 10
+	})
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	pass 

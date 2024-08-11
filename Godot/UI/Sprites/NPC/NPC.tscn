@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://waer1prr3dk0"]
+
+[ext_resource type="Script" path="res://UI/Sprites/NPC/NPC.gd" id="1_4vujv"]
+
+[node name="Npc" type="Node"]
+script = ExtResource("1_4vujv")

@@ -1,0 +1,30 @@
+[gd_scene load_steps=6 format=3 uid="uid://xu7jp1qiu82f"]
+
+[ext_resource type="Script" path="res://UI/Sprites/NPC/OscarTheBoss/OscarTheBoss.gd" id="1_tcssy"]
+[ext_resource type="Texture2D" uid="uid://uqw2jy7qrwe4" path="res://UI/Sprites/NPC/OscarTheBoss/OscerDefaultFacingForward.png" id="2_4twm0"]
+[ext_resource type="PackedScene" uid="uid://waer1prr3dk0" path="res://UI/Sprites/NPC/NPC.tscn" id="2_ph4s7"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_l4sj7"]
+radius = 7.07107
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_eou7o"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_4twm0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="OscarTheBoss" type="CharacterBody2D"]
+script = ExtResource("1_tcssy")
+
+[node name="Npc" parent="." instance=ExtResource("2_ph4s7")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_l4sj7")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_eou7o")

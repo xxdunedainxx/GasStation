@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://b2yy7xxsbsnym"]
+
+[ext_resource type="Script" path="res://UI/Objects/GasStationCounter/GasStationCounter.gd" id="1_d7h2g"]
+[ext_resource type="Texture2D" uid="uid://be7mx5nm3k6i2" path="res://UI/Objects/GasStationCounter/InsideGasStationCounter.png" id="1_l3nni"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wamlm"]
+size = Vector2(38, 3)
+
+[node name="GasStationCounter" type="CharacterBody2D"]
+script = ExtResource("1_d7h2g")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_l3nni")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_wamlm")
+one_way_collision_margin = 0.0

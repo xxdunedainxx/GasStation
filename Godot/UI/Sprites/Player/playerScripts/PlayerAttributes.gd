@@ -11,7 +11,7 @@ extends Node
 var TRUST = 10
 
 # Speed will likely be constant, with debuf variations 
-var SPEED = 10 
+var SPEED = 50 
 
 # Temporary debufs 
 var SPEED_DEBUF = 0

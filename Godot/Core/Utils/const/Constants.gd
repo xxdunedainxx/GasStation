@@ -19,9 +19,13 @@ var USER_HUB_CONTROLLER_PRESS  = "emitUserHub"
 var MOUSE_LEFT_CLICK = "emitLeftClick"
 
 # Event Types
+var GENERIC_EVENT_SYSTEM = "emitEvent"
 var DIALOGUE_EVENT = "DIALOGUE_EVENT"
 var DIALOGUE_WRITING_EVENT = "DIALOGUE_WRITE_EVENT"
 
 # Event supported additional fields 
 var ADDITIONAL_EVENT_FIELDS = "additionalFields"
 var FREEZE_PLAYER = "freezePlayer"
+
+# NPC related keys
+var NPC_SPEED = "npcSpeed"
