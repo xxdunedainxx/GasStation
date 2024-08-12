@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://t0lngttjlh64"]
+
+[ext_resource type="Script" path="res://UI/Objects/gsobject/InteractableObject.gd" id="1_hr5jv"]
+
+[node name="InteractableObject" type="Node"]
+script = ExtResource("1_hr5jv")

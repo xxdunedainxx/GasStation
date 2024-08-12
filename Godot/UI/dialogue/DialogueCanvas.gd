@@ -41,7 +41,7 @@ func updateDialogueText(text: Array):
 # Handles a left click event for the text writer
 # If it is currently writing, emit a write interrupt
 # Otherwise go to the next text element 
-func handleLeftClickEvent():
+func handleLeftClickEvent(event: InputEvent):
 	# If we are visible and writing 
 	if visible:
 		# If its not already interupted, interupt it

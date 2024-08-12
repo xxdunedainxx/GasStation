@@ -11,7 +11,7 @@
 extends Node
 
 signal emitUserHub()
-signal emitLeftClick()
+signal emitLeftClick(event: InputEvent)
 
 var CONTROLLER_INPUT_MAPPINGS = {
 	"I": userHub
@@ -24,7 +24,7 @@ func _ready():
 	# Tells godot that this class wants input signals 
 	set_process_input(true)
 
-func _input(event):
+func _input(event: InputEvent):
 	Logging.debugLog("Controller processing", "Controller.gd")
 	
 	for inputMapping in CONTROLLER_INPUT_MAPPINGS:
@@ -36,12 +36,12 @@ func _input(event):
 			pass
 
 # User hub event 
-func userHub(event):
+func userHub(event: InputEvent):
 	Logging.infoLog("User hub!", "Controller.gd")
 	emit_signal(Constants.USER_HUB_CONTROLLER_PRESS)
 
 # Left mouse click event emission 
-func leftMouseClick(event):
+func leftMouseClick(event: InputEvent):
 	Logging.infoLog("Left mouse click!", "Controller.gd")
-	emit_signal(Constants.MOUSE_LEFT_CLICK)
+	emit_signal(Constants.MOUSE_LEFT_CLICK, event)
 

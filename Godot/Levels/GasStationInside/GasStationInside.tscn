@@ -9,7 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://xu7jp1qiu82f" path="res://UI/Sprites/NPC/OscarTheBoss/OscarTheBoss.tscn" id="6_eu5h4"]
 [ext_resource type="PackedScene" uid="uid://cw77kxpnd3aed" path="res://UI/userHub/UserHub.tscn" id="6_hb7np"]
 [ext_resource type="PackedScene" uid="uid://b2yy7xxsbsnym" path="res://UI/Objects/GasStationCounter/GasStationCounter.tscn" id="8_86ha2"]
-[ext_resource type="Texture2D" uid="uid://sn3w0svufw65" path="res://UI/Objects/Phone/WallPhone.png" id="9_db5mm"]
+[ext_resource type="PackedScene" uid="uid://bvkfubljm85k5" path="res://UI/Objects/Phone/WallPhone.tscn" id="10_akoil"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_ekwuv"]
 distance = 1.0
@@ -51,10 +51,6 @@ position = Vector2(536, 309)
 [node name="GasStationCounter" parent="UsersAndObjects" instance=ExtResource("8_86ha2")]
 position = Vector2(578, 311)
 
-[node name="WallPhone" type="Sprite2D" parent="UsersAndObjects"]
-position = Vector2(625, 292)
-texture = ExtResource("9_db5mm")
-
 [node name="UserHub" parent="." instance=ExtResource("6_hb7np")]
 
 [node name="Boundaries" type="Node" parent="."]
@@ -83,3 +79,6 @@ shape = SubResource("WorldBoundaryShape2D_t71fx")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Boundaries/StaticBody2D4"]
 position = Vector2(578, 292)
 shape = SubResource("WorldBoundaryShape2D_o022u")
+
+[node name="WallPhone" parent="." instance=ExtResource("10_akoil")]
+position = Vector2(625, 291)
