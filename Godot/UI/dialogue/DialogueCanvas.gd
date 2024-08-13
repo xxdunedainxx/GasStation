@@ -20,6 +20,9 @@ var WRITING_INTERUPT = false
 # Boolean to state we are at the end of the sentence 
 var END_OF_WRITER = false 
 
+# Used for locking the writer 
+var WRITER_LOCK = Mutex.new()
+
 # Called when the node enters the scene tree for the first time.
 func init():
 	pass
@@ -43,7 +46,7 @@ func updateDialogueText(text: Array):
 		CURRENT_TEXT_INDEX = 0
 		
 		# Write the first sentence 
-		__writeSentenceToUI(text[0])
+		__writeSentenceToUI(0)
 	else:
 		Logging.warnLog(
 			"Cant display new dialogue text because dialogue is already open!", 
@@ -67,7 +70,11 @@ func handleLeftClickEvent(event: InputEvent):
 			pass
 		else:
 			# Write next sentence 
-			__writeSentenceToUI(CURRENT_TEXT[CURRENT_TEXT_INDEX])
+			if WRITER_LOCK.try_lock():
+				if __isEndOfWriter():
+					Logging.errorLog("Writer already ended!", "DialogueCanvas.gd")
+				else:
+					__writeSentenceToUI(CURRENT_TEXT_INDEX)
 
 func _ready():
 	__registerSignals()
@@ -99,7 +106,13 @@ func __registerSignals():
 	)
 
 # Write items 1 item at a time, based on a delay	
-func __writeSentenceToUI(text: String):
+func __writeSentenceToUI(currentIndex: int):
+	
+	var text: String = CURRENT_TEXT[currentIndex]
+	
+	# Take the lock..
+	WRITER_LOCK.lock()
+	
 	# Take 'IS_WRITING' lock 
 	IS_WRITING = true
 
@@ -119,10 +132,8 @@ func __writeSentenceToUI(text: String):
 			break
 			
 	CURRENT_TEXT_INDEX+=1
-	# Release the lock 
-	IS_WRITING = false 
 	
-	if __isEndOfWriter():
+	if __isEndOfWriter() and (currentIndex + 1) >= len(CURRENT_TEXT):
 		# Little animation at the end of the statement :) 
 		var dotThereOrNot = false 
 		while visible:
@@ -132,6 +143,12 @@ func __writeSentenceToUI(text: String):
 				WRITE_SPEED
 			)			
 			dotThereOrNot = !dotThereOrNot
+	
+	# Release the lock 
+	IS_WRITING = false 
+	
+	# Release the lock 
+	WRITER_LOCK.unlock()
 		
 func __isEndOfWriter() -> bool:
-	return CURRENT_TEXT_INDEX == len(CURRENT_TEXT)
+	return CURRENT_TEXT_INDEX >= len(CURRENT_TEXT)
