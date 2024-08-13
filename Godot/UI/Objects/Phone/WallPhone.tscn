@@ -1,13 +1,19 @@
-[gd_scene load_steps=4 format=3 uid="uid://bvkfubljm85k5"]
+[gd_scene load_steps=5 format=3 uid="uid://bvkfubljm85k5"]
 
 [ext_resource type="Script" path="res://UI/Objects/Phone/WallPhone.gd" id="1_1sy8a"]
 [ext_resource type="PackedScene" uid="uid://t0lngttjlh64" path="res://UI/Objects/gsobject/InteractableObject.tscn" id="2_4mgy6"]
 [ext_resource type="Texture2D" uid="uid://sn3w0svufw65" path="res://UI/Objects/Phone/WallPhone.png" id="2_nsdka"]
 
-[node name="WallPhone" type="Node2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4nxiy"]
+size = Vector2(8, 12)
+
+[node name="WallPhone" type="Area2D"]
 script = ExtResource("1_1sy8a")
 
 [node name="InteractableObject" parent="." instance=ExtResource("2_4mgy6")]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("2_nsdka")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_4nxiy")

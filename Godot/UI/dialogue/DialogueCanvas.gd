@@ -1,3 +1,6 @@
+# TODO -- look into lockks for dialogues: 
+# 		--> https://docs.godotengine.org/en/stable/classes/class_mutex.html
+
 extends CanvasLayer
 
 # Dialogue text component to update in the UI 
@@ -20,7 +23,10 @@ var END_OF_WRITER = false
 # Called when the node enters the scene tree for the first time.
 func init():
 	pass
-	
+
+func dialogueIsCurrentlyActive() -> bool:
+	return visible
+
 func showDialogue():
 	visible = true
 
@@ -28,14 +34,21 @@ func hideDialogue():
 	visible = false
 
 func updateDialogueText(text: Array):
-	showDialogue()
+	# TODO -- might need an override to interupt current dialogue 
+	if not dialogueIsCurrentlyActive():
+		showDialogue()
 
-	# Stash text in the class variables 
-	CURRENT_TEXT = text
-	CURRENT_TEXT_INDEX = 0
-	
-	# Write the first sentence 
-	__writeSentenceToUI(text[0])
+		# Stash text in the class variables 
+		CURRENT_TEXT = text
+		CURRENT_TEXT_INDEX = 0
+		
+		# Write the first sentence 
+		__writeSentenceToUI(text[0])
+	else:
+		Logging.warnLog(
+			"Cant display new dialogue text because dialogue is already open!", 
+			"DialogueCanvs.gd"
+		)
 
 
 # Handles a left click event for the text writer

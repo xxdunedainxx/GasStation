@@ -8,3 +8,4 @@ position = Vector2(420, 300)
 script = ExtResource("1_rxn1d")
 
 [node name="DialogueCanvas" parent="." instance=ExtResource("2_bvg18")]
+visible = false

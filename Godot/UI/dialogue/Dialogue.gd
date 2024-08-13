@@ -41,6 +41,7 @@ func hideDialogue():
 
 # TODO -- update speed 
 func updateDialogueText(text: Array):
+	# if interuptExistingDialogueSignal or 
 	emit_signal(Constants.DIALOGUE_WRITE_TEXT_SIGNAL, text)
 	handleEmitDialogueEvent(Constants.DIALOGUE_WRITING_EVENT, true)
 

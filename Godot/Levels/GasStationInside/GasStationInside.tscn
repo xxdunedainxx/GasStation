@@ -42,6 +42,9 @@ texture = ExtResource("3_j6r7p")
 [node name="UsersAndObjects" type="Node2D" parent="."]
 script = ExtResource("5_spb63")
 
+[node name="WallPhone" parent="UsersAndObjects" instance=ExtResource("10_akoil")]
+position = Vector2(625, 291)
+
 [node name="Rod" parent="UsersAndObjects" instance=ExtResource("4_v8wl4")]
 position = Vector2(580, 339)
 
@@ -79,6 +82,3 @@ shape = SubResource("WorldBoundaryShape2D_t71fx")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Boundaries/StaticBody2D4"]
 position = Vector2(578, 292)
 shape = SubResource("WorldBoundaryShape2D_o022u")
-
-[node name="WallPhone" parent="." instance=ExtResource("10_akoil")]
-position = Vector2(625, 291)

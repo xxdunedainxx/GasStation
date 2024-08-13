@@ -1,10 +1,10 @@
 extends Node
 
+#####  Sccenes  ##### 
 # Scene paths
 var GAS_STATION_INSIDE_SCENE = "res://Levels/GasStationInside/GasStationInside.tscn"
 
-# Signal constants
-
+#####  Signal constants ##### 
 # User/player events 
 var FREEZE_PLAYER_EVENT = "emitFreezePlayerEvent"
 
@@ -27,5 +27,10 @@ var DIALOGUE_WRITING_EVENT = "DIALOGUE_WRITE_EVENT"
 var ADDITIONAL_EVENT_FIELDS = "additionalFields"
 var FREEZE_PLAYER = "freezePlayer"
 
+#####  NPCs  ##### 
 # NPC related keys
 var NPC_SPEED = "npcSpeed"
+
+#####  Registries  ##### 
+# Registry values s
+var PLAYER_BODY_REGISTRY_VALUE = "playerBody"

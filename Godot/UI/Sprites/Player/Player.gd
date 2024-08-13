@@ -39,3 +39,9 @@ func _ready():
 		Constants.FREEZE_PLAYER_EVENT,
 		handleFreezePlayerEvent
 	)
+	
+	# Register our character body reference 
+	CharacterBody2dRegistry.registerCharacterBody(
+		self, 
+		Constants.PLAYER_BODY_REGISTRY_VALUE
+	)
