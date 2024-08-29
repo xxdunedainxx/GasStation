@@ -7,7 +7,7 @@ extends CanvasLayer
 @onready var dialogueText = $DialogueText
 
 # Default write speed 
-var WRITE_SPEED: float = 0.0000000000001
+var WRITE_SPEED: float = 50
 
 # Current text we are writing to screen 
 var CURRENT_TEXT: Array = []
@@ -140,7 +140,7 @@ func __writeSentenceToUI(currentIndex: int):
 			dialogueText.text = text + "." if dotThereOrNot else text
 			await Sleep.slowSleep (
 				get_tree(),
-				WRITE_SPEED
+				WRITE_SPEED * 10
 			)			
 			dotThereOrNot = !dotThereOrNot
 	

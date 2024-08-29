@@ -3,8 +3,14 @@
 [ext_resource type="Script" path="res://UI/dialogue/Dialogue.gd" id="1_rxn1d"]
 [ext_resource type="PackedScene" uid="uid://bueecsksiggse" path="res://UI/dialogue/DialogueCanvas.tscn" id="2_bvg18"]
 
-[node name="Dialogue" type="Node2D"]
-position = Vector2(420, 300)
+[node name="Dialogue" type="Container"]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
 script = ExtResource("1_rxn1d")
 
 [node name="DialogueCanvas" parent="." instance=ExtResource("2_bvg18")]

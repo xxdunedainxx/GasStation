@@ -10,7 +10,7 @@
 script = ExtResource("1_2i1gm")
 
 [node name="MainCamera" parent="." instance=ExtResource("2_iixsh")]
-zoom = Vector2(2.75, 2.75)
+zoom = Vector2(6, 6)
 
 [node name="OutsideGasStationLoginScreen" type="Sprite2D" parent="."]
 position = Vector2(3, -2)
