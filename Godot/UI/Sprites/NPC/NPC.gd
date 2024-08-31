@@ -27,7 +27,9 @@ navAgent: NavigationAgent2D):
 	npcNavAgentRef = navAgent
 	
 	npcMovementSpecification = {
-		"npcDestination" : npcReference.global_position + Vector2(-30,5) 
+		"npcDestination" : WaypointLocationRegistry.getWaypoint(
+			Constants.GAS_STATION_INSIDE_LEFT
+		).global_position
 	}
 
 
@@ -68,20 +70,24 @@ func __evalMoveNPC():
 	if not npcMovementSpecification.is_empty():
 
 		var npcDestination: Vector2 = npcMovementSpecification["npcDestination"]
-		npcNavAgentRef.target_position = npcDestination
 		
-		# TODO -- this could be moved into 'moveLeft', 'moveRight', etc.. methods 
-		#if npcDestination.x <= npcReference.position.x:
-			#npcReference.velocity = Vector2.LEFT  * __getNPCSpeed()
-		#elif npcDestination.x >= npcReference.position.x:
-			#npcReference.velocity = Vector2.RIGHT  * __getNPCSpeed()
-		#elif npcDestination.y <= npcReference.position.y:
-			#npcReference.velocity = Vector2.DOWN  * __getNPCSpeed()
-		#elif npcDestination.y >= npcReference.position.y:
-			#npcReference.velocity = Vector2.UP  * __getNPCSpeed()
-		
-		var directionToMove: Vector2 = npcNavAgentRef.get_next_path_position() - npcReference.global_position
-		directionToMove = directionToMove.normalized()
-		npcReference.velocity = directionToMove * __getNPCSpeed()
-		npcReference.move_and_slide()
-		Sleep.sleep(get_tree(), .00000000001)
+		if npcReference.global_position - npcDestination >= Vector2(0.1,0.1):
+			npcNavAgentRef.target_position = npcDestination
+			
+			# TODO -- this could be moved into 'moveLeft', 'moveRight', etc.. methods 
+			#if npcDestination.x <= npcReference.position.x:
+				#npcReference.velocity = Vector2.LEFT  * __getNPCSpeed()
+			#elif npcDestination.x >= npcReference.position.x:
+				#npcReference.velocity = Vector2.RIGHT  * __getNPCSpeed()
+			#elif npcDestination.y <= npcReference.position.y:
+				#npcReference.velocity = Vector2.DOWN  * __getNPCSpeed()
+			#elif npcDestination.y >= npcReference.position.y:
+				#npcReference.velocity = Vector2.UP  * __getNPCSpeed()
+			
+			var directionToMove: Vector2 = npcNavAgentRef.get_next_path_position() - npcReference.global_position
+			directionToMove = directionToMove.normalized()
+			npcReference.velocity = directionToMove * __getNPCSpeed()
+			npcReference.move_and_slide()
+			Sleep.sleep(get_tree(), .00000000001)
+		else:
+			pass 

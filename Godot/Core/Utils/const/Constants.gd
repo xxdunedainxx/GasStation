@@ -34,3 +34,8 @@ var NPC_SPEED = "npcSpeed"
 #####  Registries  ##### 
 # Registry values s
 var PLAYER_BODY_REGISTRY_VALUE = "playerBody"
+
+
+
+## waypoints
+var GAS_STATION_INSIDE_LEFT = "GasStationInsideLeft"

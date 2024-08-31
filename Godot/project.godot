@@ -29,6 +29,7 @@ Controller="*res://Core/Gameplay/controls/Controller.gd"
 PlayerAttributes="*res://UI/Sprites/Player/playerScripts/PlayerAttributes.gd"
 EvenSystem="*res://Core/Gameplay/Events/EvenSystem.gd"
 CharacterBody2dRegistry="*res://Core/registries/CharacterBody2DRegistry.gd"
+WaypointLocationRegistry="*res://Core/registries/WaypointLocationRegistry.gd"
 
 [dotnet]
 
