@@ -39,7 +39,10 @@ script = ExtResource("1_ajrda")
 position = Vector2(538, 316)
 
 [node name="Dialogue" parent="." instance=ExtResource("2_iedbs")]
-position = Vector2(581, 360)
+offset_left = 581.0
+offset_top = 360.0
+offset_right = 581.0
+offset_bottom = 360.0
 
 [node name="MainCamera" parent="." instance=ExtResource("2_ehscj")]
 position = Vector2(577, 323)
@@ -66,6 +69,10 @@ position = Vector2(578, 301)
 position = Vector2(578, 311)
 
 [node name="UserHub" parent="." instance=ExtResource("6_hb7np")]
+offset_left = 577.0
+offset_top = 345.0
+offset_right = 577.0
+offset_bottom = 345.0
 
 [node name="Boundaries" type="Node" parent="."]
 

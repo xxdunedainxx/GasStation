@@ -7,7 +7,7 @@
 # It is effectively middleware for handling dialogue related events .
 # --------------------------------------------------------------------------- #
 
-extends Node2D
+extends Container
 
 const DialogueCanvas = preload("res://UI/dialogue/DialogueCanvas.gd")
 var dialogueCanvas: DialogueCanvas 

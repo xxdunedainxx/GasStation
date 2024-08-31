@@ -9,16 +9,34 @@
 script = ExtResource("1_qu4ru")
 
 [node name="DialogueBackgrounGreasyPaper" type="Sprite2D" parent="."]
-position = Vector2(579, 547)
+position = Vector2(571.5, 529)
 scale = Vector2(3.695, 2.86)
 texture = ExtResource("1_0iwn5")
 
-[node name="DialogueText" parent="." instance=ExtResource("3_0lnbh")]
-
 [node name="DialogueButton" type="Button" parent="."]
-offset_left = 723.0
-offset_top = 478.0
-offset_right = 754.0
-offset_bottom = 509.0
+offset_left = 711.0
+offset_top = 459.0
+offset_right = 729.0
+offset_bottom = 499.0
 text = "X"
 script = ExtResource("4_hsrfa")
+
+[node name="DialogueText" parent="." instance=ExtResource("3_0lnbh")]
+offset_left = 412.0
+offset_top = 488.0
+offset_right = 445.0
+offset_bottom = 511.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -35.0
+offset_top = -89.0
+offset_right = 20.0
+offset_bottom = -49.0
+grow_horizontal = 2
+grow_vertical = 0
+pivot_offset = Vector2(2.08165e-12, 2.08165e-12)
